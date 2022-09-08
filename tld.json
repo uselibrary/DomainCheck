@@ -1,0 +1,22 @@
+{
+  "xyz": {
+    "nic": "whois.nic.xyz",
+    "response": "object does not exist"
+  },
+    "com": {
+        "nic": "whois.verisign-grs.com",
+        "response": "no match for"
+    },
+    "net": {
+        "nic": "whois.verisign-grs.com",
+        "response": "no match for"
+    },
+    "ci": {
+        "nic": "whois.nic.ci",
+        "response": "no object found"
+    },
+    "ren": {
+        "nic": "whois.nic.ren",
+        "response": "object does not exist"
+    }
+}
