@@ -1,6 +1,7 @@
 import socket
 import json
 import time
+import os
 
 
 def get_whois(domain, whois_server):
@@ -90,7 +91,7 @@ def main():
             delay = delay_second(delay_time)
 
             # build result file path with tld name and dict name, time format is year-month-day-hour-minute-second
-            result_path = 'result/' + tld_name + '_' + dict_name + '_' + time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + '.log'
+            result_path = os.getcwd() + '/result/' + tld_name + '_' + dict_name + '_' + time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()) + '.log'
             # write set up information to result file: tld name, dict name, delay time, time
             result_file(result_path, 'TLD: ' + tld_name + ' Dict: ' + dict_name + ' Delay: ' + delay_time + ' Time: ' + time.strftime("%Y-%m-%d-%H-%M-%S", time.localtime()))
             result_file(result_path, '****************************')
