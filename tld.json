@@ -22,5 +22,9 @@
     "su": {
         "nic": "whois.tcinet.ru",
         "response": "no object found"
+    },
+    "ru": {
+        "nic": "whois.tcinet.ru",
+        "response": "no object found"
     }
 }
