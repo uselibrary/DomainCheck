@@ -34,4 +34,7 @@ bai.xyz is NOT available #不可注册的域名
 - test 测试
 
 
+## 查找whois server
+可以在`https://www.iana.org/domains/root/db/??.html`中找到tld nic whois server，其中??为对应tld/域名后缀
+
 Check the available domain of a TLD with dict, based on Python.
