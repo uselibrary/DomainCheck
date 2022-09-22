@@ -27,4 +27,16 @@ def get_whois(domain, whois_server):
 
 # https://www.iana.org/domains/root/db/??.html, ?? is the tld nic whois server
 
-print(get_whois('56561pa.su', 'whois.tcinet.ru').lower())
+
+# exexute the function
+if __name__ == '__main__':
+    # input domain
+    domain = input("Input domain: ")
+    # input nic whois
+    whois_server = input("Input whois server: ")
+    # get response
+    print(domain, whois_server)
+    response = get_whois(domain, whois_server)
+    # print response
+    print(response)
+    
