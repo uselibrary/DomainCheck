@@ -26,5 +26,9 @@
     "ru": {
         "nic": "whois.tcinet.ru",
         "response": "no entries found"
+    },
+    "es": {
+        "nic": "whois.iis.se",
+        "response": "not found"
     }
 }
